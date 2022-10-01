@@ -1,4 +1,4 @@
-﻿/*        Console.Write("Input a first number:");
+﻿/*      Console.Write("Input a first number:");
         int n1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("Input a second number;");
         int n2 = Convert.ToInt32(Console.ReadLine());
@@ -39,7 +39,7 @@ while(current <= number)
 */
 // Задача3
 
-Console.Write("input three-digit number: ");
+/*Console.Write("input three-digit number: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 if (n >= 100 && n < 1000)
@@ -50,3 +50,4 @@ else
 {
     Console.WriteLine("Uncorrent input"!);
 }
+*/
