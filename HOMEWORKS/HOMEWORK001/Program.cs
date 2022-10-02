@@ -77,14 +77,15 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int i = 0;
 
-while (i <= n)
+while (n > 0)
 {  
-    i++;
-        
-if ( i % 2 == 0 )
+        if ( n % 2 == 0 )
     
     {
-       Console.WriteLine(" " + n);
+       Console.Write(" " + n);
     }
+    i++;
+
 }
-    
+
+Console.Write("-четные числа в заданном промежутке. ");
