@@ -77,15 +77,13 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int i = 0;
 
-while (n > 0)
+while (i >= 0)
 {  
-        if ( n % 2 == 0 )
-    
+
+    if ( n % 2 == 0 )
+        i++;
     {
-       Console.Write(" " + n);
+       Console.WriteLine(" " + n);
     }
-    i--;
 
-}
-
-Console.Write("");
+}   
