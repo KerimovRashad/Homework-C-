@@ -88,4 +88,4 @@ while (n > 0)
 
 }
 
-Console.Write("-четные числа в заданном промежутке. ");
+Console.Write("");
