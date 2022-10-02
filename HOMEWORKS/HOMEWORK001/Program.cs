@@ -84,7 +84,7 @@ while (n > 0)
     {
        Console.Write(" " + n);
     }
-    i++;
+    i--;
 
 }
 
