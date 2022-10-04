@@ -72,18 +72,19 @@ else
 8 -> 2, 4, 6, 8
 */
 
-Console.Write("Input a number;");
+/*Console.WriteLine("input a number:");
 int n = Convert.ToInt32(Console.ReadLine());
 
-int i = 0;
+int i = 1;
 
-while (i > 0)
-{  
-
-    if ( n % 2 == 0 )
-        i++;
+while (i <= n)
+{
+    if (i % 2 != 1)
     {
-       Console.WriteLine(" ");
+        Console.Write(i + ", ");
     }
+      i++;
 
-}   
+}
+Console.WriteLine("Even numbers from 1 to " + n);
+*/
