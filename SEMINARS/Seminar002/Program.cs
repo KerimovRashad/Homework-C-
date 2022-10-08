@@ -30,7 +30,7 @@ int num = new Random().Next(100, 1000);
 int twoDigitNumber = TwoDigitNumber(num);
 int res = TwoDigitNumber(num);
 Console.WriteLine("two Digit Number is " + res);
-*/
+
 
 //Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно a и b. a и b - инфо от пользователя(тоже int)
 
