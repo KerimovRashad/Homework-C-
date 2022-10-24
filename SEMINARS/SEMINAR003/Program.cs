@@ -31,10 +31,41 @@ Console.WriteLine(FindDipozon(quart));
 
 //Задание 2: Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
-/*double FindRast(double x1, double y1, double x2, double y2)
+/*double FindDistance(double x1, double y1, double x2, double y2)
 {
-    double rast = 0;
-    rast = Math.Sqrt(Math.Pow(x2 - x1,2)+Math.Pow(y2 -y1,2));
-    return rast;
+ double distance = Math.Sqrt(Math.Pow((x2-x1),2) + Math.Pow((y2-y1),2));
+ return distance;
 }
+Console.WriteLine("Введите x1: ");
+double x1 =Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите y1: ");
+double y1 =Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите x2: ");
+double x2 =Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите y2: ");
+double y2 =Convert.ToDouble(Console.ReadLine());
+Console.WriteLine($"Растояние между точками = {FindDistance(x1,y1,x2,y2)}");
+*/
+//Задача №4. Напишите программу, которая принимает на вход число (N) и выводит квадраты чисел от 
+// 1 до N.
+
+/*void WriteQ(int N)
+{
+    int count = 1;
+    if(N<1)
+    {
+        Console.WriteLine("Input a number more 1");
+    }
+    else
+    {
+        while(count <=N)
+        {
+            Console.WriteLine(Math.Pow(count,2));
+            count++;
+        }
+    }
+}
+Console.Write("Input a number: ");
+int N = Convert.ToInt32(Console.ReadLine());
+WriteQ(N);
 */
